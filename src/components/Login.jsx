@@ -27,7 +27,6 @@ const Login = () => {
       return navigate("/");
     } catch (err) {
       setError(err?.response?.data);
-      console.log("Data:", err?.response?.data);
     }
   };
 
